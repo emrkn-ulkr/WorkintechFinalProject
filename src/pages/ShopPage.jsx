@@ -27,7 +27,7 @@ export default function ShopPage() {
                         key={p.id}
                         className="flex w-full md:w-[calc(50%-8px)] lg:w-[calc(25%-12px)]"
                     >
-                        <ProductCard title={p.title} price={p.price} image={p.image} />
+                        <ProductCard id={p.id} title={p.title} price={p.price} image={p.image} />
                     </div>
                 ))}
             </div>

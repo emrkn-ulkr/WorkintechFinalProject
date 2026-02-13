@@ -24,6 +24,9 @@ export default function Header() {
                     <Link to="/cart" className="text-sm font-medium">
                         Cart
                     </Link>
+                    <Link to="/contact" className="text-sm font-medium">
+                        Contact
+                    </Link>
                 </nav>
 
                 {/* Icons */}
